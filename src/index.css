@@ -3,5 +3,14 @@
   color: #fff;
 }
 body{
-background: #000;
+  background: #000;
+}
+
+#tasklist {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+#tasklist::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
 }

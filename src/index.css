@@ -1,9 +1,13 @@
 @import "tailwindcss";
+
+
+
 *{
   color: #fff;
 }
 body{
-  background: #000;
+  background: #111;
+  
 }
 
 #tasklist {
@@ -13,4 +17,10 @@ body{
 
 #tasklist::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Ensure form elements can have a white background */
+input, textarea {
+  background-color: transparent;
+
 }
